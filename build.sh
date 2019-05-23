@@ -4,7 +4,7 @@ set -o errexit
 
 DEVICE=$1
 
-if [[ $DEVICE != blueline && $DEVICE != crosshatch ]]; then
+if [[ $DEVICE != sargo && $DEVICE != bonito ]]; then
     exit 1
 fi
 
