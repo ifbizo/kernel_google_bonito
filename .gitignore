@@ -119,5 +119,8 @@ all.config
 # fetched Android config fragments
 kernel/configs/android-*.cfg
 
-# Qualcomm out-of-tree audio drivers
+# Qualcomm out-of-tree drivers
 /techpack/audio
+/drivers/staging/fw-api/
+/drivers/staging/qca-wifi-host-cmn/
+/drivers/staging/qcacld-3.0/
